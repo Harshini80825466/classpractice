@@ -1,0 +1,7 @@
+echo -e “Red Hat\n Centos \n AlmaLinux \n Rocky Linux\n Fedora \n Debian \n Scientific Linux
+\n OpenSuse \n Ubuntu \n Xubuntu \n Linux Mint \n Deepin Linux \n Slackware \n Mandriva” >
+filename3.txt | cp filename3.txt  kodiganti_filename.txt
+
+
+
+
