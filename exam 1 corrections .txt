@@ -5,4 +5,22 @@ filename3.txt | cp filename3.txt  kodiganti_filename.txt
 
 
 
- echo -e " Red Hat\n Centos \n Almalinux \n Rocky Linux\n Fedora \n Debian \n Scientific Linux\n Opensuse \n Ubuntu \n Xubuntu \n Linux Mint \n Deepin Linux \n Slackware" >filename.txt
+
+
+
+echo -e " Red Hat\n Centos \n Almalinux \n Rocky Linux\n Fedora \n Debian \n Scientific Linux\n Opensuse \n Ubuntu \n Xubuntu \n Linux Mint \n Deepin Linux \n Slackware" >filename3.txt| cp filename3.txt kodiganti_filename.txt
+
+cat kodiganti_filename.txt
+ Red Hat
+ Centos 
+ Almalinux 
+ Rocky Linux
+ Fedora 
+ Debian 
+ Scientific Linux
+ Opensuse 
+ Ubuntu 
+ Xubuntu 
+ Linux Mint 
+ Deepin Linux 
+ Slackware
