@@ -79,6 +79,20 @@ int main(int argc, char *argv[]) {
 }
 
 
+///////
+gcc -o inner_product innerrproduct.c -lblas 
+cps_student@bell130-171136:~/c-pgrm$ ./inner_product 1000000 2
+Dot product method: library
+Dot product result: -1000000.000000
+This task took 0.010347 seconds to execute
+cps_student@bell130-171136:~/c-pgrm$ ./inner_product 1000000 1
+Dot product method: loop
+Dot product result: -1000000.000000
+This task took 0.038358 seconds to execute
+cps_student@bell130-171136:~/c-pgrm$ 
+
+
+
 
 
 
