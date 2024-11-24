@@ -54,7 +54,7 @@ void init(double* u, int N, double dx)
 {
   int i;
   for (i=0; i<N+1; ++i)
-    u[i] = -sin(i*dx);
+    u[i] = sin(i*dx);
 }
 
 /*
