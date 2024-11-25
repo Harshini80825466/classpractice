@@ -64,6 +64,45 @@ Hello World From thread = 1
 Hello World From thread = 5 
 Hello World From thread = 2 
 Hello World From thread = 4 
+***************************************************************************************************
+export OMP_NUM_THREADS=2
+cps_student@bell130-171136:~/c-pgrm$ ./opm
+Hello World From thread = 0 
+Hello World From thread = 1 
+cps_student@bell130-171136:~/c-pgrm$ export OMP_NUM_THREADS=9
+cps_student@bell130-171136:~/c-pgrm$ ./opm
+Hello World From thread = 8 
+Hello World From thread = 1 
+Hello World From thread = 5 
+Hello World From thread = 2 
+Hello World From thread = 4 
+Hello World From thread = 3 
+Hello World From thread = 6 
+Hello World From thread = 7 
+Hello World From thread = 0 
+cps_student@bell130-171136:~/c-pgrm$ export OMP_NUM_THREADS=20
+cps_student@bell130-171136:~/c-pgrm$ ./opm
+Hello World From thread = 19 
+Hello World From thread = 13 
+Hello World From thread = 1 
+Hello World From thread = 3 
+Hello World From thread = 5 
+Hello World From thread = 7 
+Hello World From thread = 2 
+Hello World From thread = 4 
+Hello World From thread = 16 
+Hello World From thread = 10 
+Hello World From thread = 0 
+Hello World From thread = 6 
+Hello World From thread = 9 
+Hello World From thread = 14 
+Hello World From thread = 11 
+Hello World From thread = 15 
+Hello World From thread = 18 
+Hello World From thread = 17 
+Hello World From thread = 8 
+Hello World From thread = 12 
+
 
 
 */
