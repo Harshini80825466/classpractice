@@ -21,10 +21,10 @@ void diff_forward(double* u, int N, double dx, double* du_forward) {
     // Forward difference for the first point
     du_forward[0] = (u[1] - u[0]) / dx;
 
-    for (i=1; i<N-1; ++i) {
+    for (i=1; i<=N-1; ++i) {
     du_forward[i] = (u[i]-u[i-1])/dx;
   }
-  du_forward[N-1] = (u[N-1]-u[N-2])/dx;
+  du_forward[N] = (u[N]-u[N-1])/dx;
     
     // Forward difference for the middle points
     
